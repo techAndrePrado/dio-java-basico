@@ -1,8 +1,15 @@
+/*
+    O objetivo do código ContaTerminal é coletar dados do usuário para simular a abertura de uma conta bancária
+    e exibir as informações da conta recém-criada. Ele faz isso através de uma interação no terminal.
+*/
+
+// A biblioteca abaixo, que permite acesso a entrada de dado, inseridos pelo usuário.
 import java.util.Scanner;
 
 public class ContaTerminal {
 
     public static void main(String[] args) {
+        //Cria o objeto que captura os dados inseridos pelo cliente em um variável chama "scanner"
         Scanner scanner = new Scanner(System.in);
 
         // Solicitação dos dados da conta
